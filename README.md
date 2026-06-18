@@ -36,6 +36,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+[text](https://imgur.com/a/onWNXZO)
+
 <video src='https://i.imgur.com/BBekEFu.mp4' title='Video Walkthrough' controls></video>
 
 ## Notes
