@@ -1,18 +1,65 @@
-# React + Vite
+# Web Development Project 1 - *World Cup 2026 Community Board*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Donovan Raymond**
 
-Currently, two official plugins are available:
+This web app: **A community board for the 2026 FIFA World Cup that displays live, upcoming, and past group stage match results with real stadiums, kickoff times, and scores — organized by date in a responsive card grid.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **X** hours spent in total
 
-## React Compiler
+## Required Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The following **required** functionality is completed:
 
-Note: This will impact Vite dev & build performances.
+- [x] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
+  - [x] Header/title describing the theme is displayed
+- [x] **At least 10 unique events or resources are displayed in a responsive card format**
+  - [x] There are at least 10 cards displayed for 10 different events
+  - [x] The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [x] Each card should include some information about the event or resource
 
-## Expanding the ESLint configuration
+The following **optional** features are implemented:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [ ] Buttons or links to a related resources are on each card component
+  - [ ] All cards have buttons or links in addition to text
+- [ ] The site is responsive for both desktop and mobile formats
+  - [ ] Web app is shown in a mobile format
+  - [ ] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page.
+
+The following **additional** features are implemented:
+
+* [x] Live game indicator with animated pulsing dot and current score
+* [x] Games grouped by date with section headers for easy scanning
+* [x] Winner highlighted on result cards
+* [x] Custom green/gold World Cup color scheme with dark mode support
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<video src='https://i.imgur.com/BBekEFu.mp4' title='Video Walkthrough' controls></video>
+
+## Notes
+
+Challenges encountered: setting up the initial git identity before the first commit could be made, and organizing a large amount of match data cleanly across multiple components.
+
+## Data Sources
+
+- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums
+
+- google
+
+## License
+
+    Copyright 2026 Donovan Raymond
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
